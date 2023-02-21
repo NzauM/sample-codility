@@ -14,9 +14,9 @@ Note: String will have at least one element; words will always be separated by a
 "you will win" -->["you 3", "will 4", "win 3"]
 
 ### BDD
-**Given:** A string <br>
-**When:** The length of string s is calculated <br>
-**Then:** Return an array of (string + string length) <br>
+**Given:** A string s<br>
+**When:** The length of each word in string s is calculated <br>
+**Then:** Return an array of (word + string length) for all words in string s<br>
 
 ### PseudoCode:
 1. Convert the string into an array of the words inside.
