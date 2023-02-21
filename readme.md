@@ -10,13 +10,13 @@ Note: String will have at least one element; words will always be separated by a
 
 ### Example(Input --> Output)
 
-"apple ban" --> ["apple 5", "ban 3"]
+"apple ban" --> ["apple 5", "ban 3"] <br>
 "you will win" -->["you 3", "will 4", "win 3"]
 
 ### BDD
-Given: A string 
-When: The length of string s is calculated
-Then: Return an array of (string + string length) 
+**Given:** A string <br>
+**When:** The length of string s is calculated <br>
+**Then:** Return an array of (string + string length) <br>
 
 ### PseudoCode:
 1. Convert the string into an array of the words inside.
